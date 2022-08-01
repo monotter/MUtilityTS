@@ -1,0 +1,22 @@
+{
+    "name": "mutilityts",
+    "globIgnorePaths": [
+        "**/package.json",
+        "**/tsconfig.json"
+    ],
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "MainModule": {
+                "$path": "out/MainModule.lua",
+                "Include": {
+                    "$path": "include",
+                    "node_modules": {
+                        "$path": "node_modules/@rbxts"
+                    }
+                }
+            }
+        }
+    }
+}
